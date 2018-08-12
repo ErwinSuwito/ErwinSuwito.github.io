@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* global */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Segoe UI, Helvetica, sans-serif;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.image {
+	width: 200px;
+	height: 200px;
+}
+
+#sectionheader {
+	margin-top: 20px;
+	
+}
+
+/* header */
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header {
+	background:#565CA7;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 12px;
+}
+
+header a{
+	color: #D7D7D7;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	
+}
+
+header .current a{
+	font-weight: bolder;
+	color: white;
+}
+
+header a:hover {
+	color: #EBEBEB;
+	font-weight: bold;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 24px 0 24px;
+}
+
+/* Stories */
+#stories {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#stories * {
+	margin: 0;
+	padding: 0;
+}
+

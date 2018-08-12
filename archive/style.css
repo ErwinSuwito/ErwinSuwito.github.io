@@ -96,6 +96,7 @@ pb{
 
 #wrapper {
 	display:grid; 
+	grid-template-columns:auto;
 	grid-template-areas:
 		"header"
 		"lateststories"
@@ -111,12 +112,11 @@ pb{
 
 #lateststories{
 	display:grid;
-	grid-template-columns: 1 fr;
+	grid-template-columns: 1 fr 1 fr;
 	grid-template-rows:auto;
 	grid-template-areas:
-		"sectionheader"
-		"story1"
-		"story2";
+		"sectionheader ."
+		"story1 story2";
 }
 
 #story1{
