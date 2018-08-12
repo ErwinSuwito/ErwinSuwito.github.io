@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* global */
+
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Segoe UI, Helvetica, sans-serif;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#pagecontent{
+	background-image: url(walp.png);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: white;
+}
+
+#herocontent{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+#headline{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/* header */
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header {
+	background:#565CA7;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 12px;
+}
+
+header a{
+	color: #D7D7D7;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	
+}
+
+header .current a{
+	font-weight: bolder;
+	color: white;
+}
+
+header a:hover {
+	color: #EBEBEB;
+	font-weight: bold;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 24px 0 24px;
+}
