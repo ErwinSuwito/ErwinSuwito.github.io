@@ -9,22 +9,29 @@ body {
 	font-family: Segoe UI, Helvetica, sans-serif;
 }
 
+body a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #1E66D7; 
+}
+
 ul {
 	padding: 0px;
 	margin: 0px;
 }
 
 .image {
-	width: 200px;
-	height: 200px;
+	width: 380px;
+	height: 240px;
 }
 
 #sectionheader {
-	margin-top: 20px;
+	margin-top: 100px;
 	
 }
-
-/* header */
 
 .container{
 	width:80%;
@@ -32,8 +39,11 @@ ul {
 	overflow:hidden;
 }
 
+
+/* header */
+
 header {
-	background:#565CA7;
+	background: #565CA7;
 	color: white;
 	padding-top: 30px;
 	min-height: 70px;
@@ -41,10 +51,6 @@ header {
 
 header #branding {
 	float: left;
-}
-
-header #branding h1 {
-	margin: 0;
 }
 
 header nav {
@@ -58,6 +64,10 @@ header a{
 	text-transform: uppercase;
 	font-size: 16px;
 	
+}
+
+header h1 {
+	display: inline;
 }
 
 header .current a{
@@ -77,14 +87,85 @@ header li {
 }
 
 /* Stories */
-#stories {
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
+
+.story {
+	float: left;
+	text-align: left;
+	width: 32%;
+	padding: 0 2px 0 0; 
 }
 
-#stories * {
+/* events */
+
+.event {
+	padding-bottom: 12px;
+	float: left;
+	text-align: left;
+	width: 24%;
+	padding: 0 0 8 0; 
+}
+
+.event h5 {
+	font-size: 20px;
+	padding: 0;
 	margin: 0;
+}
+
+.event p {
+	padding: 0;
+	margin: 0;
+}
+
+/* join advertisement */
+
+#joinad {
+	background: #565CA7;
+	color: white;
+	margin-top: 52px;
+	
+}
+
+#joinad h5 {
+	font-weight: 600;
+	margin: 36px 0 4px 0;
+	font-size: 16px;
 	padding: 0;
 }
 
+#joinad h3 {
+	font-weight: 400;
+	font-size: 56px;
+	margin: 0px 0 0px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#joinad h4 {
+	font-weight: lighter;
+	font-size: 20px;
+	margin: 10px 0 36px 0;
+	padding: 0;
+}
+
+#joinad h2 {
+	font-weight: lighter;
+	font-family: Segoe MDL2 Assets;
+	font-size: 20px;
+	margin: 10px 0 36px 0;
+	padding: 0;
+}
+
+#joinad a{
+	color: white;
+}
+
+#joinad a:hover {
+	color: black;
+}
+
+/* footer */
+
+footer {
+	background-color: #272727;
+	color: white;
+}
