@@ -15,9 +15,10 @@ ul {
 }
 
 #pagecontent{
-	background-image: url(walp.png);
-	height: 100%;
+	/* image source: https://www.manchesterfutsal.com/futsal/what-is-futsal/ */
+	background: url(hero-image.jpg);
 	background-position: center;
+	height: 100%;
 	background-size: cover;
 	position: relative;
 	color: white;
@@ -37,7 +38,7 @@ ul {
 
 #headline h1 {
 	font-size: 40px;
-	margin: 0 0 6px 0;
+	margin: 0 0 12px 0;
 }
 
 .button_1 {
@@ -62,7 +63,7 @@ ul {
 
 /* header */
 .container{
-	width:80%;
+	width:94%;
 	margin:auto;
 	overflow:hidden;
 }
@@ -70,7 +71,10 @@ ul {
 header {
 	background:#565CA7;
 	color: white;
+	width: 80%;
+	margin: auto;
 	padding-top: 30px;
+	margin-bottom: 52px;
 	min-height: 70px;
 }
 
@@ -127,6 +131,7 @@ header li {
 	}
 	
 	header nav{
+		margin-top: 20px;
 		margin-bottom: 20px;
 	}
 }
