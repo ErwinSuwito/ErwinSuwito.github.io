@@ -57,6 +57,19 @@ li {
 	overflow:hidden;
 }
 
+.headcontainer{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.headcontainer a{
+	color: white;
+}
+
+.headcontainer a:hover {
+	background-color: #565CA7;
+}
 
 .container p{
 	margin-bottom: 28px;
@@ -132,7 +145,7 @@ header li {
 	padding-bottom: 12px;
 	float: left;
 	text-align: left;
-	width: 24%;
+	width: 20%;
 	padding: 0 0 8 0;
 	margin-right: 10px;
 }
@@ -223,24 +236,6 @@ header li {
 
 /* footer */
 
-/* page content2 - members */
-
-.pagecontent2 {
-	background-color: #D8D8D8;
-	color: black;
-	margin: 0;
-	padding: 8px 0 8px 0;
-}
-
-.pagecontent2 h2 {
-	font-weight: 600;
-	font-size: 20px;
-}
-
-
-
-/* footer */
-
 footer {
 	background-color: #272727;
 	color: white;
@@ -252,13 +247,18 @@ footer {
 	header nav,
 	header nav li,
 	#stories .story,
+	#stories .container,
 	#events .container,
 	#events .container .event,
 	#joinad .container,
 	footer .container {
    	 	float:none;
     	text-align:center;
-		width:100%
+		width:100%;
+	}
+	
+	#events .event{
+		margin-top: 20px;
 	}
 	
 	header{
