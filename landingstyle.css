@@ -14,14 +14,18 @@ ul {
 	margin: 0px;
 }
 
-#pagecontent{
+#herocontent {
+	color: white;
+}
+
+#pagebg{
 	/* image source: https://www.manchesterfutsal.com/futsal/what-is-futsal/ */
 	background: url(hero-image.jpg);
+	filter: brightness(80%);
 	background-position: center;
 	height: 100%;
 	background-size: cover;
 	position: relative;
-	color: white;
 }
 
 #herocontent{

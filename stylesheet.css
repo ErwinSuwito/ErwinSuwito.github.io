@@ -3,6 +3,12 @@
 
 /* global */
 
+table {
+	border: thin;
+	border-color: #565CA7;
+	
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -52,6 +58,17 @@ li {
 }
 
 
+.container p{
+	margin-bottom: 28px;
+}
+
+.headercontainer{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
 /* header */
 
 header {
@@ -95,7 +112,7 @@ header a:hover {
 header li {
 	float: left;
 	display: inline;
-	padding: 0 0px 0 12px;
+	padding: 0 0px 0 24px;
 }
 
 /* Stories */
@@ -116,7 +133,8 @@ header li {
 	float: left;
 	text-align: left;
 	width: 24%;
-	padding: 0 0 8 0; 
+	padding: 0 0 8 0;
+	margin-right: 10px;
 }
 
 .event h5 {
@@ -176,6 +194,50 @@ header li {
 #joinad a:hover {
 	color: black;
 }
+
+/* page header - members */
+.pageheader {
+	background: #424781;
+	color: white;
+	margin: 0;
+}
+
+.pageheader h1 {
+	font-weight: 700;
+	font-size: 22px;
+}
+
+/* page content - members */
+
+.pagecontent {
+	background-color: #D8D8D8;
+	color: black;
+	margin: 0;
+	padding: 32px 0 8px 0;
+}
+
+.pagecontent h2 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+/* footer */
+
+/* page content2 - members */
+
+.pagecontent2 {
+	background-color: #D8D8D8;
+	color: black;
+	margin: 0;
+	padding: 8px 0 8px 0;
+}
+
+.pagecontent2 h2 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
 
 /* footer */
 
