@@ -112,6 +112,7 @@ header a:hover {
 header li {
 	float: left;
 	display: inline;
+	list-style: none;
 	padding: 0 24px 0 24px;
 }
 

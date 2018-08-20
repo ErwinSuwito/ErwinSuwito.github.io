@@ -321,6 +321,95 @@ th {
 	box-shadow: -0px 6px 16px -6px black;
 }
 
+/* about page */
+
+.aboutclubcontainer {
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+	color: white;
+}
+
+.aboutclubcontainer p {
+	margin-top: 0;
+	margin-bottom: 32px;
+	font-size: 17px;
+}
+
+.aboutclubcontainer h1 {
+	margin-bottom: 8px;
+	margin-top: 32px;
+	font-size: 24px;
+}
+
+#aboutclubsection {
+	background-color: #5359A2;
+	margin: 0;
+}
+
+#statements {
+	background-color: #434882;
+	overflow: hidden;
+}
+
+#statementcontainer #vision1 h1, #mission1 h1, #objective1 h1 {
+	margin-right: 24px;
+	margin-top: 40px;
+	font-size: 28px;
+}
+
+#statementcontainer #vision2 p, #mission2 p, #objective2 p {
+	margin-top: 4px;
+	font-size: 32px;
+	font-family: Times New Roman, serif;
+}
+
+#vision1 {
+	grid-area: vision1;
+}
+
+#vision2 {
+	grid-area: vision2;
+}
+
+#mission1 {
+	grid-area: mission1;
+}
+
+#mission2 {
+	grid-area: mission2;
+}
+
+#objective1 {
+	grid-area: objective1;
+}
+
+#objective2 {
+	grid-area: objective2;
+}
+
+
+#statementcontainer {
+	display: grid;
+	width: 60%;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: white;
+	
+	grid-template-areas:
+		"vision1 vision2"
+		"mission1 mission2"
+		"objective1 objective2";
+}
+
+#keypeople h1 {
+	font-size: 24px;
+	margin-bottom: 8px;
+	margin-top: 32px;
+}
+
 /* global media query */
 
 @media (max-width: 800px) {
@@ -333,10 +422,40 @@ th {
 	}
 	
 	#eventSection .event,
-	#stories .story {
+	#stories .story ,
+	#keypeople .story{
 		float: none;
 		text-align: left;
 		width: 100%;
+	}
+	
+	#statementcontainer {
+		display: grid;
+		width: 80%;
+		overflow: hidden;
+		color: white;
+		padding-bottom: 16px;
+		margin: auto;
+		grid-template-areas:
+			"vision1"
+			"vision2"
+			"mission1"
+			"mission2"
+			"objective1"
+			"objective2";
+}
+	
+	#statementcontainer #vision1 h1, #mission1 h1, #objective1 h1 {
+		font-size: 24px;
+		margin-top: 24px;
+		margin-bottom: 0;
+	}
+
+	#statementcontainer #vision2 p, #mission2 p, #objective2 p {
+		font-size: 20px;
+		margin-top: 0;
+		margin-bottom: 12px;
+		font-family: Times New Roman, serif;
 	}
 	
 	header {
