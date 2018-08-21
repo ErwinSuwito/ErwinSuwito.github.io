@@ -37,7 +37,8 @@ li {
 	padding: 0 0 0 0;
 	margin-right: 12px;
 	margin-bottom: 20px;
-	
+	background-color: white;
+	box-shadow: -0px 6px 12px -6px #AAAAAA;
 }
 
 .story h3, .story p {
@@ -46,18 +47,15 @@ li {
 	
 }
 
-.story p {
-	padding-bottom: 12px;
-}
-
 .story:hover {
 	transition: 400ms;
 	background-color: white;
-	transform: translate(0,-2px);
-	box-shadow: -0px 6px 16px -6px #999999;
+	transform: translate(0,-5px);
+	box-shadow: -0px 6px 32px -6px #555555;
 }
 
 .story h3 {
+	margin-top: 4px;
 	margin-top: 4px;
 	margin-bottom: 2px;
 	font-weight: 600;
@@ -65,6 +63,7 @@ li {
 
 .story p{
 	margin: 0 0 0 0;
+	padding-bottom: 12px;
 }
 
 #stories {
@@ -157,7 +156,7 @@ header a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
-	
+	transition: 300ms;
 }
 
 header .current a{
@@ -168,6 +167,7 @@ header .current a{
 header a:hover {
 	color: #EBEBEB;
 	font-weight: bold;
+	transition: 300ms;
 }
 
 header li {
@@ -186,7 +186,7 @@ header li {
 }
 
 .homecontainer{
-	width: 80%;
+	width: 82%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -212,17 +212,21 @@ header li {
 	padding: 0 0 8 0;
 	margin-bottom: 12px;
 	margin-right: 12px;
+	background-color: white;
+	box-shadow: -0px 6px 12px -6px #AAAAAA;
 }
 
 .event:hover {
 	transition: 400ms;
 	background-color: white;
-	transform: translate(0,-2px);
-	box-shadow: -0px 6px 16px -6px #999999;
+	transform: translate(0,-5px);
+	box-shadow: -0px 6px 20px -6px #555555;
 }
 
 .event h3 {
-	margin: 0 0 0 0;
+	margin: 0;
+	margin-left: 4px;
+	margin-top: 8px;
 	padding-top: 8px;
 	padding-left: 12px;
 	font-weight: 600;
@@ -230,7 +234,7 @@ header li {
 
 .event p{
 	margin: 0 0 0 0;
-	padding-left: 12px;
+	padding-left: 16px;
 	padding-bottom: 8px;
 }
 
@@ -350,7 +354,7 @@ th {
 #feedbackcontent form .button:hover {
 	transition: 200ms;
 	background-color: #434882;
-	box-shadow: -0px 6px 16px -6px #ccc;
+	box-shadow: -0px 6px 16px -6px #666666;
 	transform: translate(0, -1px);
 }
 
@@ -421,6 +425,34 @@ th {
 	grid-area: objective2;
 }
 
+.people {
+	float: left;
+	text-align: left;
+	overflow: inherit;
+	width: 32%;
+	padding: 0 0 0 0;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	
+}
+
+.people h3, .people p {
+	padding-right: 12px;
+	padding-left: 12px;
+	
+}
+
+.people h3 {
+	margin-top: 4px;
+	margin-bottom: 2px;
+	font-weight: 600;
+}
+
+.people p{
+	margin: 0 0 0 0;
+	padding-bottom: 12px;
+}
+
 
 #statementcontainer {
 	display: grid;
@@ -441,6 +473,26 @@ th {
 	font-size: 24px;
 	margin-bottom: 8px;
 	margin-top: 32px;
+}
+
+/* contact info */
+
+.contaccontainer {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 24px;
+}
+
+#contactBar h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+
+#contactBar p {
+	margin-top: 0;
+	margin-bottom: 8px;
 }
 
 /* global media query */
@@ -489,6 +541,11 @@ th {
 		margin-top: 0;
 		margin-bottom: 12px;
 		font-family: Times New Roman, serif;
+	}
+	
+	#statements {
+		padding-bottom: 20px;
+		padding-top: 20px;
 	}
 	
 	header {
