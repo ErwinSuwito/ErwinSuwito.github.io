@@ -55,7 +55,7 @@ ul {
 }
 
 .button_1:hover {
-	transition: 320s;
+	transition: 320ms;
 	background-color: #434882;
 	box-shadow: -0px 6px 16px -6px black;
 	transform: translate(0, -6px);
