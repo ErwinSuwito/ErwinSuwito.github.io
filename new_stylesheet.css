@@ -312,6 +312,7 @@ th {
 	border: none;
 	color: white;
 	height: 32px;
+	transition: 200ms;
 }
 
 #feedbackcontent form .button:hover {
