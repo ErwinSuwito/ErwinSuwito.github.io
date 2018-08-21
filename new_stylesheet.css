@@ -319,7 +319,7 @@ th {
 	transition: 200ms;
 	background-color: #434882;
 	box-shadow: -0px 6px 16px -6px black;
-	transform: translate(0, -2px);
+	transform: translate(0, -1px);
 }
 
 /* about page */
