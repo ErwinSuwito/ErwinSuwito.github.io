@@ -56,7 +56,6 @@ li {
 
 .story h3 {
 	margin-top: 4px;
-	margin-top: 4px;
 	margin-bottom: 2px;
 	font-weight: 600;
 }
@@ -493,6 +492,51 @@ th {
 #contactBar p {
 	margin-top: 0;
 	margin-bottom: 8px;
+}
+
+/* Contact Us */
+
+#feedbackType {
+	display: grid;
+	
+	/*grid-template-areas:
+		"generalFeedback enquiries"
+		"joinClub joinClub";*/
+}
+
+#feedbackType h1 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-left: 20px;
+	margin-bottom: 12px;
+}
+
+#generalFeedback {
+	min-height: 80px;
+	background-color: #434882;
+	color: white;
+	grid-area: "generalFeedback";
+	margin-bottom: 24px;
+	width: 40%;
+}
+
+#enquiries {
+	min-height: 80px;
+	background-color: #434882;
+	color: white;
+	grid-area: "enquiries";
+	margin-bottom: 24px;
+	width: 40%;
+}
+
+#joinClub {
+	min-height: 80px;
+	background-color: #434882;
+	color: white;
+	grid-area: "joinClub";
+	margin-bottom: 52px;
+	column-span: all;
+	width: 40%;
 }
 
 /* global media query */
