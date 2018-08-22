@@ -553,7 +553,8 @@ th {
 	
 	#eventSection .event,
 	#stories .story ,
-	#keypeople .story{
+	#keypeople .story,
+	.feedbackType {
 		float: none;
 		text-align: left;
 		width: 100%;
