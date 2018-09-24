@@ -5,6 +5,19 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="new_stylesheet.css">
 		<title>Enquiry | APU Futsal Club</title>
+		
+		<script>
+		function promptMessage()
+		{
+		if (confirm("Are you sure you want to submit the form?")) {
+		form.submit();
+		}
+
+		else {
+		alert("You decided to not submit the form!");
+		}
+		}
+		</script>
 	</head>
 
 	<body>
@@ -37,7 +50,7 @@
 					name <br><input type="text"> <br>
 					email <br><input type="email"> <br>
 					message <br><textarea></textarea> <br>
-					<input value="reset" class="button" type="reset"><input type="submit" class="button" value="submit">
+					<input value="reset" class="button" type="reset"><input type="submit" class="button" onclick ="promptMessage()" value="submit">
 				</form>
 			</section>
 		</section>
