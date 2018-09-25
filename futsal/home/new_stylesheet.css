@@ -67,6 +67,16 @@ li {
 	padding-bottom: 12px;
 }
 
+.storiescontainer h1 {
+	font-size: 32px;
+	margin-top: 0px;
+}
+
+.storiescontainer p {
+	margin-bottom: 0;
+	
+}
+
 #stories {
 	margin-top: 20px;
 }

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: Segoe UI, sans-serif;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav h2{
+	font-weight: normal;
+}
+
+li {
+	margin-right: 12px;
+	display: inline;
+	list-style: none;
+}
+
+li a{
+	color: white;
+	text-decoration: none;
+	transition: 400ms;
+}
+
+li a:hover {
+	transition: 400ms;
+	font-size: 24px;
+}
+
+#herocontent {
+	color: white;
+	position: absolute;
+	bottom: 50%;
+	top: 32%;
+	width: 100%;
+}
+
+#heroimg {
+	background:  #565CA7;
+	background-position: center;
+	height: 100%;
+	background-size: cover;
+	position: relative;
+}
+
+#headline{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#headline h1 {
+	font-size: 56px;
+	margin: 0 0 0 0;
+}
+
+
+/* header */
+.container{
+	width:94%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/* media query */
+@media(max-width: 768px){
+
+	
+}
